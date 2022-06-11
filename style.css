@@ -1,15 +1,76 @@
 body {
-    padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+section{
+    height: 500px;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 
-.content {
+.highlight{
+    color: orange !important;
+}
+.mainsection {
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 30px;
 }
 
-.content img {
-    width: 100%;
+.mainsection img {
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(50deg, rgb(245, 214, 109), rgb(241, 104, 80) );
+    color: rgb(255, 255, 255);
+    padding: 7px 27px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.mainsection .link-button a {
+    margin-top: 30px;
+}
+
+.dream-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.box-banner{
+    box-shadow: 8px 7px 30px gray;
+    border-radius: 4px;
+    height: 260px;
+    background: white;
+
+}
+.experiance-section{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, orange);
+    border-image-slice: 1;
+
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p {
+    text-align: center;
+    border-top: 1px solid rgb(217, 198, 198);
+    padding: 30px;
+    background: rgb(41, 34, 34);
+    color: white;
 }
